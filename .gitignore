@@ -1,0 +1,16 @@
+#  Local .terraform directories
+**/.terraform/*
+*.backup
+.terraform.lock.hcl
+remote.tf
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Emacs files:
+*~
+\#*\#
