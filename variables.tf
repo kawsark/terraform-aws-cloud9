@@ -1,5 +1,17 @@
 variable "subnet_id" {
+  default = ""
+}
 
+variable "cloud9_image_id" {
+  default = "ubuntu-18.04-x86_64"
+}
+
+variable "cloud9_instance_type" {
+  default = "t3.small"
+}
+
+variable "cloud9_name" {
+  default = "terraform-cloud9"
 }
 
 variable "aws_region" {
